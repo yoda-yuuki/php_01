@@ -1,0 +1,80 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+}
+.header {
+  width: 100%;
+  height: 250px;
+  background-image: url(../img/u6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.main {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  background-color: #fcffd1;
+}
+#r {
+  position: absolute;
+  top: 90px;
+  left: 80px;
+}
+#h {
+  position: absolute;
+  top: 50px;
+  right: 30px;
+}
+#img {
+  position: absolute;
+  margin: 50px 0 0 500px;
+}
+#btn {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 235px;
+  left: 205px;
+  background: #a93ba0;
+  color: white;
+  border-radius: 50%;
+  margin: 50px 0 0 500px;
+  font-weight: bold;
+  border: 2px solid black;
+  outline: none;
+  animation: fluffy1 3s ease infinite;
+  cursor: pointer;
+  opacity: 0.9;
+}
+#btn:hover {
+  background: #d8eef7;
+  color: black;
+  opacity: 1;
+}
+@keyframes fluffy1 {
+  0% {
+    transform: translateY(0);
+  }
+  5% {
+    transform: translateY(0);
+  }
+  10% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-15px);
+  }
+  25% {
+    transform: translateY(0);
+  }
+  30% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
